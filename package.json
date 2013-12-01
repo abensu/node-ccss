@@ -1,0 +1,28 @@
+{
+  "name": "node-ccss",
+  "description": "Create Css Sprite",
+  "version": "0.1.2",
+  "author": {
+    "name": "aben su",
+    "email": "839872658@qq.com"
+  },
+  "keywords": [
+    "css",
+    "css sprite",
+    "sprite",
+    "canvas",
+    "cario",
+    "graphic",
+    "graphics",
+    "image",
+    "images"
+  ],
+  "homepage": "https://github.com/abensu/node-ccss",
+  "dependencies": {
+    "canvas": "~1.1.2"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "main": "./lib/ccss-main.js"
+}

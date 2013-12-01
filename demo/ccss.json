@@ -1,0 +1,45 @@
+{
+    "srcImgDir"     : "./ccss",
+    "tarImgDir"     : "./images",
+    "tarCssDir"     : "./css",
+    "tarCssFileName": "ccss",
+    "tarCssFileType": "css",
+    "filesOptions"  : {
+        "v-elements" : {
+            "type"              : "v-elements",
+            "cssComment"        : "垂直排列元素型",
+            "imgType"           : "png",
+            "backgroundImageURL": "../images"
+        },
+        "h-elements" : {
+            "type"              : "h-elements",
+            "cssComment"        : "水平排列元素型",
+            "imgType"           : "png",
+            "backgroundImageURL": "../images"
+        },
+        "v-box" : {
+            "type"              : "v-box",
+            "cssComment"        : "垂直包裹的盒子型",
+            "imgType"           : "png",
+            "backgroundImageURL": "../images"
+        },
+        "h-box" : {
+            "type"              : "h-box",
+            "cssComment"        : "水平包裹的盒子型",
+            "imgType"           : "png",
+            "backgroundImageURL": "../images"
+        },
+        "v-bg" : {
+            "type"              : "v-bg",
+            "cssComment"        : "垂直延伸背景型",
+            "imgType"           : "png",
+            "backgroundImageURL": "../images"
+        },
+        "h-bg" : {
+            "type"              : "h-bg",
+            "cssComment"        : "水平延伸背景型",
+            "imgType"           : "png",
+            "backgroundImageURL": "../images"
+        }
+    }
+}

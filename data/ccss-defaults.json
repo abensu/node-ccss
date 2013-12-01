@@ -1,0 +1,8 @@
+{
+    "srcDir"        : "./ccss",
+    "tarImgDir"     : "./",
+    "tarCssDir"     : "./",
+    "tarCssFileName": "ccss",
+    "tarCssFileType": "css",
+    "filesOptions"  : {}
+}
