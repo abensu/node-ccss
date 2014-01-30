@@ -137,34 +137,57 @@ index.js [代码如上](#使用)
 ### 说明
 
 * 对于要进行`v-box`（[下方有说明](#参数说明)）操作的图片文件，**中部**、**头部**、**底部**图片文件名**结尾**必须要对应为`mid`/`middle`、`top`、`bot`/`bottom`，这直接影响成生成效果（生成css时，`bot`/`bottom`的取值影响`background-position`中的`bottom`；生成图片时，ottom`，这直接影响成生成效果（生成css时，`bot`/`bottom`的取值会使元素贴底）
+
 * 对于要进行`h-box`（[下方有说明](#参数说明)）操作的图片文件，**中部**、**左部**、**右部**图片文件**结尾**必须要对应为`mid`/`middle`、`left`、`right`，这直接影响生成效果
+
 * 图片文件排列顺序按**文件名**排列顺序进行
 
   
 ## 参数说明：
 
 * `srcImgDir`
-	* 源图片文件目录
+
+> 源图片文件目录
+
 * `tarImgDir` 
-	* 存放处理后的图片文件的目标目录
+
+> 存放处理后的图片文件的目标目录
+
 * `tarCssDir`
-	* 存放处理后的样式文件的目录
+
+> 存放处理后的样式文件的目录
+
 * `tarCssFileName`
-	* 生成的样式文件件名
+
+> 生成的样式文件件名
+
 * `tarCssFileType`
-	* 生成的样式文件的文件类型，取值为`css`、`less`，默认为`s`
+
+> 生成的样式文件的文件类型，取值为`css`、`less`，默认为`s`
+
 * `filesOptions`
-	* 各待处理的文件参数
+
+> 各待处理的文件参数
+
 * `filesOptions.filename`
-	* 对应要处理的文件名（不指定时则按默作）
+
+> 对应要处理的文件名（不指定时则按默作）
+
 * `filesOptions.filename.type`
-	* 按哪种形式进行文件操作，取值为`v-elements`、`h-elements`、`v-box`、`h-box`、`v-bg`、`h-bg`，默认为`v-elemes`
+
+> 按哪种形式进行文件操作，取值为`v-elements`、`h-elements`、`v-box`、`h-box`、`v-bg`、`h-bg`，默认为`v-elemes`
+
 * `filesOptions.filename.cssComment`
-	* css注释，默认为`文件名释`
+
+> css注释，默认为`文件名释`
+
 * `filesOptions.filename.imgType`
-	* 生成的图片类型，取值为`png`、`jpg`，默认为`g`
+
+> 生成的图片类型，取值为`png`、`jpg`，默认为`g`
+
 * `filesOptions.filename.backgroundImageURL`
-	* css中`background-image`的目录，默认为`../images`
+
+> css中`background-image`的目录，默认为`../images`
 
 ***
 
@@ -188,7 +211,7 @@ index.js [代码如上](#使用)
 
 * `v-bg`
 
-> > 垂直延伸背，* 固定宽度，背景上下延伸
+> 垂直延伸背，* 固定宽度，背景上下延伸
 
 * `h-bg`
 
