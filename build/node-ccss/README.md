@@ -21,7 +21,8 @@
 
 ## 注意：
 
-暂支持`png`和`jpg`的css sprite操作
+* 暂仅支持`png`和`jpg`的css sprite操作
+* 暂仅支持英文、数字、合法字符组合的图片文件名（即不支持中文命名）
 
 
 ## 安装：
@@ -82,6 +83,8 @@
 	node_modules/
 		node-ccss/
 			...
+			
+	...
 		
 
 ccss.json
@@ -188,6 +191,11 @@ index.js [代码如上](#使用)
 * `filesOptions.filename.backgroundImageURL`
 
 > css中`background-image`的目录，默认为`../images`
+
+* `watch`
+
+> 开启观测者模式，取值为`true`、`false`，默认为`false`；取值为`true`时，如待处理文件夹中的文件（`srcImgDir` + `filesOptions.filename`）出现增删改操作，会重新生成css和图片合成操作
+
 
 ***
 

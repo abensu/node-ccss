@@ -4,5 +4,6 @@
     "tarCssDir"     : "./",
     "tarCssFileName": "ccss",
     "tarCssFileType": "css",
-    "filesOptions"  : {}
+    "filesOptions"  : {},
+    "watch"			: false
 }
